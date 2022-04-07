@@ -28,7 +28,7 @@ struct Product {
 }
 
 // Table 1 and Table 2
-struct dataForMajorProductsTable {
+struct DataForMajorProductsTable {
     let totalProduction: Decimal
     
     let unitProductionCostInternalMarket: Decimal
@@ -56,7 +56,7 @@ struct dataForMajorProductsTable {
 }
 
 // Table 3
-struct intermediateDataTable {
+struct IntermediateDataTable {
     let VitSit: Decimal
     let VitSi0: Decimal
     let Vi0Sit: Decimal
@@ -69,7 +69,7 @@ struct intermediateDataTable {
 }
 
 // Table 4 TODO
-struct estimatesForMajorProductsTable {
+struct EstimatesForMajorProductsTable {
     let grewOfProduction: Decimal
     let growthRateOfProduction: Decimal
     
